@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     updateStats();
 });
 
-document.getElementById('addTaskBtn').addEventListener('click', addTask);
+// document.getElementById('addTaskBtn').addEventListener('click', addTask);
 
 document.getElementById('taskInput').addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
